@@ -1,0 +1,72 @@
+
+body{
+    background: no-repeat center center fixed url(/img/bg_img.jpg);
+    background-size: cover;
+    color:rgb(54, 56, 78);
+}
+@-moz-document url-prefix() {
+    body{
+        background: no-repeat center center fixed url(/img/moz_bg_img.jpg);
+        background-size: cover;
+        color:rgb(54, 56, 78);
+    }
+}
+p{
+    text-align: center;
+}
+.accent{
+    color:aliceblue;
+}
+.accent:hover{
+    color:aliceblue;
+}
+.container{
+    background-color: rgb(23, 25, 40);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 5px;
+    align-self: center;
+}
+.hello{
+    color:aliceblue;
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+}
+.btn-primary{
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.btn-primary, .form-check-input{
+    background-color: rgb(45, 47, 72);
+    border: none;
+    text-align: center;
+}
+.btn-primary:hover, .btn-primary:active, .form-check-input:hover, .form-check-input:checked, .form-check-input:focus{
+    background-color: rgb(45, 47, 72) !important; 
+    border: none;
+    box-shadow: none;
+    transition-property: label;
+}
+.form-control{
+    background-color: rgb(23, 25, 40);
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid rgb(45, 47, 72);
+    color: aliceblue;
+}
+.form-control:hover, .form-control:focus{
+    background-color: rgb(23, 25, 40);
+    border-color: white;
+    border-radius: 0%;
+    border-bottom: 1px solid aliceblue;
+    box-shadow: none;
+    color: aliceblue;
+}
+.active:hover{
+    color:aliceblue;   
+}
+.row .button{
+    display: grid;
+    justify-content: center;
+}
